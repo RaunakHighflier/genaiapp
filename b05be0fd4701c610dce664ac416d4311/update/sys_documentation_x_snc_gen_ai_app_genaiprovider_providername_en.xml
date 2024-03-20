@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="providername" label="ProviderName" language="en" table="x_snc_gen_ai_app_genaiprovider">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>providername</element>
+            <help/>
+            <hint/>
+            <label>ProviderName</label>
+            <language>en</language>
+            <name>x_snc_gen_ai_app_genaiprovider</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 13:48:55</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>ProviderName</sys_name>
+            <sys_package display_value="Gen AI App " source="x_snc_gen_ai_app">b05be0fd4701c610dce664ac416d4311</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gen AI App ">b05be0fd4701c610dce664ac416d4311</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_gen_ai_app_genaiprovider_providername_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 13:48:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
