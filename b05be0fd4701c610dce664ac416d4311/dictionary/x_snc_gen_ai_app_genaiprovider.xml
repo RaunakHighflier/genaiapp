@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="86ce81fd47410a10dce664ac416d4365" label="GenAIProvider" max_length="40" name="x_snc_gen_ai_app_genaiprovider" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>
