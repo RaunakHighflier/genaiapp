@@ -2,6 +2,11 @@
     <element db_object_id="86ce81fd47410a10dce664ac416d4365" label="GenAIProvider" max_length="40" name="x_snc_gen_ai_app_genaiprovider" type="collection">
         <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="ProviderName" max_length="40" name="providername" type="string"/>
+        <element label="ProviderName" max_length="40" name="providername" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OpenAPI" sequence="0" value="openapi"/>
+                <element inactive_on_update="false" label="Azure OpenAPI" sequence="1" value="azure_openapi"/>
+            </choice>
+        </element>
     </element>
 </database>
